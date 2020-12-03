@@ -1,0 +1,1 @@
+$('#webTicker').webTicker({hoverpause:false, startEmpty:false,  duplicate:true, });

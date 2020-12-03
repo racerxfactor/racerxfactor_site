@@ -1,0 +1,465 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link  href="fancybox/jquery.fancybox.css" rel="stylesheet">
+<link  href="css/graph.css" rel="stylesheet">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("images/bridge_sunset.jpg");
+  min-height: 85%;
+}
+
+.bgimg-2 {
+  background-image: url("images/colorado_bridge.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("images/bw_pasadena_bridge.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+
+.wireframe {
+    display:inline-block;
+    width:300px;
+    height:300px;
+    background-color:#ffffff;
+    border:1px solid #000000;
+}
+
+a {
+  text-decoration: none;
+	color: #ddd;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+</style>
+</head>
+<body>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border">HI, I'M REX.</span>
+
+    <h3 class="border" style="font-size:25px;color: #f7f7f7;">UX/UI DESIGNER &amp; WEB DEVELOPER</h3>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Skills</h3>
+      <ul class="chart">
+        <li class="bar teal" style="height: 90%;" title="90">
+        <div class="percent">90<span>%</span></div>
+        <div class="skill">Sketch</div></li>
+        <li class="bar teal" style="height: 90%;" title="90">
+        <div class="percent">90<span>%</span></div>
+        <div class="skill">Adobe Creative Suite</div></li>
+        <li class="bar teal" style="height: 90%;" title="90">
+        <div class="percent">90<span>%</span></div>
+        <div class="skill">Prototyping</div></li>
+        <li class="bar teal" style="height: 90%;" title="90">
+        <div class="percent">90<span>%</span></div>
+        <div class="skill">Coding</div></li>
+        <li class="bar teal" style="height: 92%;" title="92">
+        <div class="percent">92<span>%</span></div>
+        <div class="skill">HTML</div></li>
+        <li class="bar teal" style="height: 85%;" title="85">
+        <div class="percent">85<span>%</span></div>
+		<div class="skill">CSS</div></li>
+        <li class="bar teal" style="height: 70%;" title="70">
+        <div class="percent">70<span>%</span></div>
+        <div class="skill">Javascript</div></li>
+        <li class="bar teal" style="height: 90%;" title="90">
+        <div class="percent">90<span>%</span></div>
+        <div class="skill">Proof of Concept</div></li>
+        <li class="bar teal" style="height: 90%;" title="90">
+        <div class="percent">90<span>%</span></div>
+        <div class="skill">Management</div></li>
+        <li class="bar teal" style="height: 80%;" title="80">
+        <div class="percent">80<span>%</span></div>
+        <div class="skill">Organization</div></li>
+      </ul>
+</div>
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">PROTOTYPING</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px; text-align: center;">
+  
+	  <table width="100%">
+	  <tbody>
+		<tr>
+		  <td>INVISION</td>
+		  <td>FRAMER</td>
+		</tr>
+		<tr>
+		  <td><a href="https://invis.io/QZIA7A8HF9K" target="_blank">mobile</a></td>
+		  <td>COMING SOON</td>
+		</tr>
+		<tr>
+		  <td>&nbsp;</td>
+		  <td>&nbsp;</td>
+		</tr>
+	  </tbody>
+	  </table>
+  
+  </div>
+</div>
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">PROOF OF CONCEPT DESIGNS</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px; text-align: center;">
+      <!--Infinity war-->
+      <a href="images/poc/infinitywar/InvinityWar.png" data-fancybox="group" data-caption="Infinity War">
+        <img src="images/thumbnails/infinitywar.jpg" alt="thumbnail" class="img-fluid" />
+      </a>
+          
+      <a href="images/poc/infinitywar/ironman.png" data-fancybox="group" data-caption="Infinity War">
+       
+      </a>
+          <!--AFI Assets-->
+      <a href="images/poc/afi/photogallery.jpg" data-fancybox="group" data-caption="AFI - Photo Gallery">
+        <img src="images/thumbnails/afi_thumb.jpg" alt="thumbnail" class="img-fluid" />
+      </a>
+
+      <a href="images/poc/afi/photogallerysplash.jpg" data-fancybox="group" data-caption="AFI - Photo Gallery 2">
+       
+      </a>
+
+      <a href="images/poc/afi/schedule.jpg" data-fancybox="group" data-caption="AFI - Schedule">
+        
+      </a>
+
+      <a href="images/poc/afi/tribute.jpg" data-fancybox="group" data-caption="AFI - Tribute">
+        
+      </a>
+
+      <!-- Comic Con Assets -->
+      <a href="images/poc/comicCon/comiccon_exclusives_splash.jpg" data-fancybox="group" data-caption="Comic Con - Exclusive Splash Page">
+        <img src="images/thumbnails/comicon_thumb.jpg" alt="thumbnail" class="img-fluid" />
+      </a>
+
+      <a href="images/poc/comicCon/comiccon_exclusives.jpg" data-fancybox="group" data-caption="Comic Con - Exclusives Page">
+        
+      </a> 
+	  
+	  <a href="images/poc/comicCon/comiccon_preview.jpg" data-fancybox="group" data-caption="Comic Con - Preview">
+        
+      </a> 
+	  
+	  <a href="images/poc/comicCon/comiccon_preview2.jpg" data-fancybox="group" data-caption="Comic Con - Preview">
+        
+      </a>
+
+      <a href="images/poc/comicCon/comiccon_preview3.jpg" data-fancybox="group" data-caption="Comic Con - Preview">
+        
+      </a>
+	  
+	  <a href="images/poc/comicCon/cc_film_festival_splash.jpg" data-fancybox="group" data-caption="Comic Con - film festival">
+        
+      </a>	  
+	  
+	  <a href="images/poc/comicCon/cc_purchasepopup.jpg" data-fancybox="group" data-caption="Comic Con - popup">
+        
+      </a>
+
+      <!-- Spotify Assets -->
+      <a href="images/poc/spotify/spotify_screenSaver.jpg" data-fancybox="group" data-caption="Spotify - Screensaver">
+        <img src="images/thumbnails/spotify_thumb.jpg" alt="thumbnail" class="img-fluid" />
+      </a>
+
+      <a href="images/poc/spotify/spotify_search.jpg" data-fancybox="group" data-caption="Spotify - Search">
+         
+      </a>
+
+      <a href="images/poc/spotify/spotify_browse.jpg" data-fancybox="group" data-caption="Spotify - Browse">
+        
+      </a>
+
+      <a href="images/poc/spotify/spotify_main..jpg" data-fancybox="group" data-caption="Spotify - Main">
+        
+      </a>
+
+      <a href="images/poc/spotify/spotify_menu.jpg" data-fancybox="group" data-caption="Spotify - Menu">
+        
+      </a>
+
+      <!-- Twitch Assets -->
+      <a href="images/poc/twitch/twitch_main.jpg" data-fancybox="group" data-caption="Twitch - Main">
+        <img src="images/thumbnails/twitch_thumb.jpg" alt="thumbnail" class="img-fluid" />
+      </a>
+
+      <a href="images/poc/twitch/twitch_related.jpg" data-fancybox="group" data-caption="Twitch - Related">
+        
+      </a>
+
+      <a href="images/poc/twitch/twitch_video.jpg" data-fancybox="group" data-caption="Twitch - Video">
+        
+      </a>
+	  
+	  
+      <!-- Machinima Assets -->
+      <a href="images/poc/machinima/machinima_main.jpg" data-fancybox="group" data-caption="Machinima - Main">
+        <img src="images/thumbnails/machinima_thumb.jpg" alt="thumbnail" class="img-fluid" />
+      </a>
+
+      <a href="images/poc/machinima/machinima_video.jpg" data-fancybox="group" data-caption="Machinima - Video">
+        
+      </a>
+
+      <a href="images/poc/machinima/machinima_videolist.jpg" data-fancybox="group" data-caption="Machinima - VideoList">
+        
+      </a>
+	  
+	  <!-- Dtv iPad Assets -->
+      <a href="images/poc/dtv/iPad_home_cab.png" data-fancybox="group" data-caption="dtv - home">
+        <img src="images/thumbnails/dtv_thumb.jpg" alt="thumbnail" class="img-fluid" />
+      </a>
+
+      <a href="images/poc/dtv/iPad_home_nav.png" data-fancybox="group" data-caption="dtv - home cab">
+        
+      </a>
+
+      <a href="images/poc/dtv/iPad_home_nowplaying.png" data-fancybox="group" data-caption="dtv - now playing">
+        
+      </a>
+	  
+	  <a href="images/poc/dtv/iPad_home.png" data-fancybox="group" data-caption="dtv - home cab">
+        
+      </a>
+
+      <a href="images/poc/dtv/iPad_movies_nav.png" data-fancybox="group" data-caption="dtv - now playing">
+        
+      </a>
+	  
+	  <a href="images/poc/dtv/iPad_movies_scrolled.png" data-fancybox="group" data-caption="dtv - home cab">
+        
+      </a>
+
+      <a href="images/poc/dtv/iPad_movies.png" data-fancybox="group" data-caption="dtv - now playing">
+        
+      </a>
+	  
+	  <a href="images/poc/dtv/iPad_playlist_nav.png" data-fancybox="group" data-caption="dtv - home cab">
+        
+      </a>
+
+      <a href="images/poc/dtv/iPad_playlist.png" data-fancybox="group" data-caption="dtv - now playing">
+        
+      </a>
+	  
+	  <a href="images/poc/dtv/iPad_search_text.png" data-fancybox="group" data-caption="dtv - home cab">
+        
+      </a>
+
+      <a href="images/poc/dtv/iPad_search_voice.png" data-fancybox="group" data-caption="dtv - now playing">
+        
+      </a>
+	  
+      <a href="images/poc/dtv/iPad_info.png" data-fancybox="group" data-caption="dtv - now playing">
+        
+      </a>
+	  
+	  
+	  <!-- DTV redesign -->
+	  
+	  <a href="images/poc/dtv/Guide.jpg" data-fancybox="group" data-caption="dtv - home cab">
+        
+      </a>
+
+      <a href="images/poc/dtv/Guide_expand.jpg" data-fancybox="group" data-caption="dtv - now playing">
+        
+      </a>
+	  
+	  <a href="images/poc/dtv/Movies_featured.jpg" data-fancybox="group" data-caption="dtv - home cab">
+        
+      </a>
+
+      <a href="images/poc/dtv/Movies_featured_right.jpg" data-fancybox="group" data-caption="dtv - now playing">
+        
+      </a>
+	  
+	  <a href="images/poc/dtv/Movies_Genre.jpg" data-fancybox="group" data-caption="dtv - home cab">
+        
+      </a>
+
+      <a href="images/poc/dtv/MyDirecTV.jpg" data-fancybox="group" data-caption="dtv - now playing">
+        
+      </a>
+	  
+      <a href="images/poc/dtv/Sports.jpg" data-fancybox="group" data-caption="dtv - now playing">
+        
+      </a>
+	  
+	  <!-- mobile -->
+	  <a href="images/poc/dtv/mobile1.jpg" data-fancybox="group" data-caption="dtv - now playing">
+        
+      </a>
+	  
+      <a href="images/poc/dtv/mobile2.jpg" data-fancybox="group" data-caption="dtv - now playing">
+        
+      </a>
+	  
+  </div>
+</div>
+
+
+<!--<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">ADS</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: center;">
+      <a href="images/ads/redwoman.jpg" data-fancybox="ads" data-caption="Red Woman Debit Card">
+        <img src="images/thumbnails/red_thumb.jpg" alt="thumbnail" class="img-fluid" />
+      </a>
+
+      <a href="images/ads/typo_all.jpg" data-fancybox="ads" data-caption="Ad Flyer">
+        <img src="images/thumbnails/typo_thumb.jpg" alt="thumbnail" class="img-fluid" />
+      </a>
+  </div>
+</div> -->
+
+<div class="bgimg-3">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">WIREFRAMES</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: center;">
+    <a href="images/wireframes/form.jpg" data-fancybox="Wireframes" data-caption="Form" class="wireframe">
+      <img src="images/thumbnails/wireframe.jpg" alt="thumbnail" class="img-fluid" />
+    </a>
+
+    <a href="images/wireframes/mockup.jpg" data-fancybox="Wireframes" data-caption="Website" class="wireframe">
+      <img src="images/thumbnails/wireframe.jpg" alt="thumbnail" class="img-fluid" />
+    </a>
+	  
+	<!--<a href="images/wireframes/scoreguide.jpg" data-fancybox="Wireframes" data-caption="Website" class="wireframe">
+      <img src="images/thumbnails/wireframe.jpg" alt="thumbnail" class="img-fluid" />
+    </a>
+	  
+	<a href="images/wireframes/scoreguide1.jpg" data-fancybox="Wireframes" data-caption="Website" class="wireframe">
+      <img src="images/thumbnails/wireframe.jpg" alt="thumbnail" class="img-fluid" />
+    </a>
+	  
+	<a href="images/wireframes/scoreguide2.jpg" data-fancybox="Wireframes" data-caption="Website" class="wireframe">
+      <img src="images/thumbnails/wireframe.jpg" alt="thumbnail" class="img-fluid" />
+    </a>-->
+    
+    <a href="images/wireframes/Borderlands_Desktop.png" data-fancybox="Wireframes" data-caption="Website" class="wireframe">
+      <img src="images/thumbnails/wireframe.jpg" alt="thumbnail" class="img-fluid" />
+    </a>
+    
+    <!--<a href="images/wireframes/Borderlands_Mobile.png" data-fancybox="Wireframes" data-caption="Website" class="wireframe">
+      <img src="images/thumbnails/wireframe.jpg" alt="thumbnail" class="img-fluid" />
+    </a>-->
+    
+    <a href="images/wireframes/Borderlands_Tablet.png" data-fancybox="Wireframes" data-caption="Website" class="wireframe">
+      <img src="images/thumbnails/wireframe.jpg" alt="thumbnail" class="img-fluid" />
+    </a>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LOGO DESIGN</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <img src="images/logos/w_minimal.png" class="img-fluid" alt="Responsive image">
+  </div>
+</div>
+
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">ANIMATION</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: center;">
+      <a href="http://racerxfactor.com/MSW/edge/edge.html" target="_blank">
+        <img src="images/animation/msw.png" alt="thumbnail" class="img-fluid" />
+      </a>
+  </div>
+</div>
+
+
+<div class="bgimg-1">
+  <div class="caption">
+    <a href="RexCheng.pdf" target="_blank"><span class="border">RESUME</span></a>
+  </div>
+</div>
+<script src="js/jquery-3.1.1.js"></script>
+  <!-- FANCY BOX -->
+<script src="fancybox/jquery.fancybox.js"></script>
+</body>
+</html>
